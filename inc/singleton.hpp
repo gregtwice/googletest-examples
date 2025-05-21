@@ -8,8 +8,7 @@ private:
     MySingleton(){};
 
 public:
-
-    MySingleton *getInstance();
+    static MySingleton *getInstance();
 
     bool do_work();
 };
